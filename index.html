@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Sekolah</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Sekolah XYZ</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="profil.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Profil Sekolah
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="sejarah.html">Sejarah Sekolah</a></li>
+                            <li><a class="dropdown-item" href="identitas.html">Identitas Sekolah</a></li>
+                            <li><a class="dropdown-item" href="visimisi.html">Visi & Misi</a></li>
+                            <li><a class="dropdown-item" href="akreditasi.html">Akreditasi</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="ppdb.html">PPDB</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="ekstrakurikuler.html">Ekstrakurikuler</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="prestasi.html">Prestasi</a>
+                    </li>
+                </ul>
+            </div>
+            
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <!-- <header class="bg-blue-600 text-white text-center py-20">
+        <h1 class="text-5xl font-bold">Selamat Datang di Sekolah XYZ</h1>
+        <p class="mt-4 text-xl">Membangun Generasi Unggul dan Berkarakter</p>
+    </header> -->
+
+    <!-- Main Content -->
+    <div class="slider mt-5">
+        <img src="assets/1.jpg" alt="Gambar 1" class="active">
+        <img src="assets/2.jpg" alt="Gambar 2">
+        <img src="assets/3.jpg" alt="Gambar 3">
+        <div class="school-name">Sekolah XYZ</div>
+    </div>
+    
+    <!-- Info Grafis -->
+    <div class="flex flex-wrap bg-yellow-400 justify-around items-center h-32 p4">
+        <div class="flex items-center space-x-4 mb-6 md:mb-0 md:w-1/3">
+          <img alt="Icon of a person with plus signs around their head" class="h-16 w-16" src="https://storage.googleapis.com/a1aa/image/nPkpGfYLfLo340UhhqrjhKS9JJYlU3wPeBPGFnEzRXwe8tgOB.jpg" />
+          <div>
+            <h2 class="text-black font-bold text-xl">LOREM</h2>
+            <p class="text-black">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
+        </div>
+      
+        <div class="flex items-center space-x-4 mb-6 md:mb-0 md:w-1/3">
+          <img alt="Icon of a person with a gear and lightbulb above their head" class="h-16 w-16" src="https://storage.googleapis.com/a1aa/image/4LfwBxuHiyQcDSotIvGIDknH2nxbSlNH15czO8BlEW3ovF0JA.jpg" />
+          <div>
+            <h2 class="text-black font-bold text-xl">LOREM</h2>
+            <p class="text-black">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
+        </div>
+      
+        <div class="flex items-center space-x-4 md:w-1/3">
+          <img alt="Icon of two lightbulbs with arrows pointing between them" class="h-16 w-16" src="https://storage.googleapis.com/a1aa/image/fPpdymrsEYymC6IQ6MSeoemixMZZCyuW8tiUKZ3U4JvZetgOB.jpg" />
+          <div>
+            <h2 class="text-black font-bold text-xl">LOREM</h2>
+            <p class="text-black">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="bg-yellow-500 p-4">
+        <div class="container mx-auto flex items-center">
+         <div class="w-2/3">
+          <h1 class="text-3xl font-bold text-white">
+           Lorem ipsum dolor
+          </h1>
+          <p class="text-white mt-4">
+           Lorem ipsum dolor sit amet, consectetur adipiscing elit. In feugiat in enim nec consectetur. Donec velit arcu, porta eu enim eget, tempor fringilla augue. Duis commodo convallis leo quis condimentum. Donec vulputate, libero tincidunt rutrum elementum, nisi tortor lacinia urna, at imperdiet neque lacus et nunc. Nam eu velit odio. Sed a magna molestie, pretium risus ac, tempus eros. Sed auctor sit amet ipsum, accumsan viverra. Nam a elit pellentesque, laoreet arcu vel, sagittis magna. Fusce fringilla id sapien non faucibus. Duis convallis urna ut ipsum tincidunt viverra. Nam sed eros et ante maximus egestas ut ac ante.
+          </p>
+          <button class="mt-4 bg-red-500 text-white px-4 py-2 rounded">
+           Read More
+          </button>
+         </div>
+         <div class="w-1/3">
+          <img alt="A person in a suit standing in an office environment" class="rounded-lg" height="400" src="https://storage.googleapis.com/a1aa/image/0m2CzjVa6MatCp7LfltFlePGUDTe0oETdRL5uiAjN9ca2YQnA.jpg" width="300"/>
+         </div>
+        </div>
+       </div>
+       <!-- Latest News Section -->
+       <div class="container mx-auto mt-8">
+        <h2 class="text-center text-2xl font-bold">
+         BERITA TERBARU
+        </h2>
+        <div class="flex justify-center mt-2">
+         <div class="w-16 h-1 bg-black">
+         </div>
+        </div>
+        <div class="flex justify-center mt-2">
+         <div class="w-8 h-1 bg-black">
+         </div>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mt-8">
+         <!-- News Item 1 -->
+         <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+          <img alt="Two athletes holding medals and flowers" class="w-full h-48 object-cover" height="200" src="https://storage.googleapis.com/a1aa/image/to9AVKXp9f00TaXHdbugdZsMyXY9lxZsATzbCGlDILBkNG0JA.jpg" width="300"/>
+          <div class="p-4">
+           <h3 class="font-bold">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+           </h3>
+           <p class="mt-2 text-gray-600">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis congue.
+           </p>
+           <a class="text-red-500 mt-4 inline-block" href="#">
+            Read More &gt;&gt;
+           </a>
+          </div>
+         </div>
+         <!-- News Item 2 -->
+         <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+          <img alt="Group of athletes holding medals" class="w-full h-48 object-cover" height="200" src="https://storage.googleapis.com/a1aa/image/LjWdGXKYPH5VN5aVFfsgwe6BMEVC3BlvQ7Ru8yeCXHWY2YQnA.jpg" width="300"/>
+          <div class="p-4">
+           <h3 class="font-bold">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+           </h3>
+           <p class="mt-2 text-gray-600">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis congue.
+           </p>
+           <a class="text-red-500 mt-4 inline-block" href="#">
+            Read More &gt;&gt;
+           </a>
+          </div>
+         </div>
+         <!-- News Item 3 -->
+         <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+          <img alt="Three athletes standing on a podium" class="w-full h-48 object-cover" height="200" src="https://storage.googleapis.com/a1aa/image/sUESWYS0hMJ0C1i28JpXEvDk6d5LAUL6wRDCZNm7uFnyGD6E.jpg" width="300"/>
+          <div class="p-4">
+           <h3 class="font-bold">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+           </h3>
+           <p class="mt-2 text-gray-600">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis congue.
+           </p>
+           <a class="text-red-500 mt-4 inline-block" href="#">
+            Read More &gt;&gt;
+           </a>
+          </div>
+         </div>
+        </div>
+       </div>
+       <!-- Load More Button -->
+       <div class="flex justify-center mt-8 mb-8">
+        <button class="bg-white border-2 border-yellow-500 text-yellow-500 px-8 py-2 rounded-full">
+         LEBIH BANYAK
+        </button>
+       </div>
+
+       <div class="container mx-auto p-4 bg-white text-gray-800">
+        <h1 class="text-center text-2xl font-bold mb-4">
+         Hubungi Kami
+        </h1>
+        <div class="flex justify-center mb-8">
+         <div class="w-16 h-1 bg-gray-800">
+         </div>
+        </div>
+        <div class="flex flex-col md:flex-row justify-between mb-8">
+         <div class="md:w-1/2 p-4">
+          <h2 class="text-xl font-semibold mb-4">
+           Denah Lokasi
+          </h2>
+          <img alt="Map showing location with markers" class="w-full h-auto" height="300" src="https://storage.googleapis.com/a1aa/image/DNZfYxP2b91fD0VrY7tPMUgTfBaY00GxtLBl8s9LjRmhCZQnA.jpg" width="400"/>
+         </div>
+         <div class="md:w-1/2 p-4">
+          <h2 class="text-xl font-semibold mb-4">
+           Kontak
+          </h2>
+          <p class="mb-2">
+           <i class="fas fa-envelope">
+           </i>
+           email: company@example.com
+          </p>
+          <p class="mb-2">
+           <i class="fas fa-map-marker-alt">
+           </i>
+           Address: Jl. Example No. 10, Lorem, Lorem
+          </p>
+          <p class="mb-2">
+           <i class="fas fa-phone">
+           </i>
+           Phone: 0202-000-0000
+          </p>
+          <p class="mb-2">
+           <i class="fas fa-fax">
+           </i>
+           FAX: 0202-000000
+          </p>
+         </div>
+        </div>
+        <div class="mb-8">
+         <h2 class="text-xl font-semibold mb-4">
+          Kotak Saran
+         </h2>
+         <form>
+          <div class="mb-4">
+           <input class="w-full p-2 border border-gray-300 rounded" placeholder="Nama*" type="text"/>
+          </div>
+          <div class="mb-4">
+           <input class="w-full p-2 border border-gray-300 rounded" placeholder="Email*" type="email"/>
+          </div>
+          <div class="mb-4">
+           <input class="w-full p-2 border border-gray-300 rounded" placeholder="Nomor Telepon*" type="text"/>
+          </div>
+          <div class="mb-4">
+           <textarea class="w-full p-2 border border-gray-300 rounded h-32" placeholder="Pesan*"></textarea>
+          </div>
+          <button class="bg-blue-600 text-white px-4 py-2 rounded flex items-center" type="submit">
+           KIRIM PESAN
+           <i class="fas fa-paper-plane ml-2">
+           </i>
+          </button>
+         </form>
+        </div>      
+
+    <!-- Footer -->
+    <footer class="bg-light text-center py-4">
+        <div class="bg-blue-900 text-white p-4">
+            <div class="flex flex-col md:flex-row justify-between">
+             <div class="md:w-1/2 p-4">
+              <h2 class="text-xl font-semibold mb-4">
+               LOREM IPSUM DOLOR
+              </h2>
+              <p class="mb-4">
+               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+              </p>
+             </div>
+             <div class="md:w-1/2 p-4">
+              <h2 class="text-xl font-semibold mb-4">
+               LOREM IPSUM
+              </h2>
+              <p class="mb-2">
+               Lorem ipsum
+               <span class="text-yellow-400">
+                08 Oct 2023
+               </span>
+              </p>
+              <p class="mb-2">
+               Lorem ipsum
+               <span class="text-yellow-400">
+                08 Oct 2023
+               </span>
+              </p>
+              <p class="mb-2">
+               Lorem ipsum
+               <span class="text-yellow-400">
+                08 Oct 2023
+               </span>
+              </p>
+             </div>
+            </div>
+           </div>
+           <div class="text-center text-gray-600 mt-4">
+           </div>
+          </div>
+        <p>&copy; 2024 Sekolah XYZ. All Rights Reserved.</p>
+    </footer>
+    <script src="js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
